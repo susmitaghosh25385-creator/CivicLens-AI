@@ -1,0 +1,24 @@
+# Environment variables & Secrets (NEVER push API keys)
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+.DS_Store
